@@ -1,0 +1,19 @@
+{
+  "name": "chaseb1985.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaseB1985/chaseb1985.github.io.git"
+  },
+  "author": "Chase Barrier",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChaseB1985/chaseb1985.github.io/issues"
+  },
+  "homepage": "https://github.com/ChaseB1985/chaseb1985.github.io#readme"
+}
