@@ -15,8 +15,8 @@
 
 </head>
 
-<body>
-  <div id="gradient">
+<body id="gradient">
+  
 
     <header id="masthead">
       <div class="container">
@@ -37,6 +37,24 @@
       <h3>Some of my Work</h3><br>
       <div class="row">
         <div class="col-sm-4">
+          <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="TheJerkyBros.com" data-content="A website developed for the company
+          The Jerky Bros. This site is a work in progress." >
+          TheJerkyBros.com Info
+          <a href="http://thejerkybros.com/" style="color:black"> Link</a>
+          </button>
+          
+          <img src="assets/images/jerky.png" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
+          <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="React App"
+          data-content="This application allows the user to put in info about a garage sale or an item, and inform the community via email. The user can purchase
+          fake credits in order to send an email.">
+          Garage Sale App Info
+          <a href="https://thawing-chamber-46364.herokuapp.com/" style="color:black"> Link</a>
+          </button>
+          <img src="assets/images/garagesale.PNG" class="img-responsive" style="width:100%" alt="Image">
+        </div>
+        <div class="col-sm-4">
           <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="Project 1" data-content="This project helps to make the challenge of picking between what meal to make or where to eat. The user
         can search for a recipe and if they do not feel like making it they can find the closest restaurant that has the food that was 
         searched for.">Foodify
@@ -45,26 +63,12 @@
           <img src="assets/images/foodify.PNG" class="img-responsive" style="width:100%" alt="Image">
         </div>
         <div class="col-sm-4">
-          <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="Project 3" data-content="This App makes the life of a courier easy. The driver data is collected and then translated into
-          an easy to use layout that displays things such as miles driven and expenses which can be used for tax purposes.">Runr
-            App Info</button>
-
-          <img src="assets/images/runr2.png" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4">
           <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="React Game" data-content="This is a fun game that shows the functionality of react. The user can click their favorite 30 Rock character
           which increases their score. If the user picks all the characters without selecting the same person then they win! Otherwise
           the game will start over.">30
             Rock Clicky Game Info</button>
 
           <img src="assets/images/clickygame.PNG" class="img-responsive" style="width:100%" alt="Image">
-        </div>
-        <div class="col-sm-4">
-          <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="JavaScript Game"
-            data-content="This application allows the user to put in different train information and displays where the train
-          is going and the estimated arrival time.">Train
-            Schedule Info</button>
-          <img src="assets/images/train.PNG" class="img-responsive" style="width:100%" alt="Image">
         </div>
         <div class="col-sm-4">
           <button type="button" class="btn btn-lg btn-primary" data-toggle="popover" title="List Game" data-content="This game shows the power of adding items, in this case, items for building a hamburger. The user can add 
@@ -94,6 +98,9 @@
 
       </div>
     </footer>
+</div>  
+
+</body>
     <script>
       $(document).ready(function () {
         $('[data-toggle="popover"]').popover({
@@ -106,7 +113,5 @@
         });
       });
       </script>
-</div>  
-</body>
 
 </html>
