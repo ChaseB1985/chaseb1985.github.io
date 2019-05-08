@@ -17,7 +17,7 @@ var path = require('path');
 var app = express();
 
 // Sets an initial port. We"ll use this later in our listener
-var PORT = process.env.PORT || 3001;
+var PORT = process.env.PORT || 3000;
 
 app.use(express.static(path.join(__dirname, 'routes')));
 
