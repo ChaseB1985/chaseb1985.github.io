@@ -2,7 +2,7 @@
   "name": "chaseb1985.github.io",
   "version": "1.0.0",
   "description": "Portfolio",
-  "main": "index.html",
+  "main": "server.js",
   "scripts": {
     "test": "test",
     "start": "node server.js"
