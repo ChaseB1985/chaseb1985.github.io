@@ -32,6 +32,8 @@ p {
   height: 100px;
   width: 100px;
   margin: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px
 }
 
 .main-section {
@@ -154,10 +156,10 @@ body{
  h2{font-weight:300;font-size: 40px;line-height:38px;margin-bottom:80px;}
  h3{font-weight:300;font-size: 35px;line-height:38px;margin-bottom:40px;}
  
- .spacer{padding: 100px 0;}
+ .spacer{padding: 200px 0;}
  .center{text-align: center;}
  
- .header-bg {background:url(../images/header-bg1.jpg) center fixed;background-size:cover; }
+ .header-bg {background:url(../images/spacebig.jpg) center fixed;background-size:cover; }
  .header {background:rgba(0,0,0,0.8);position: absolute;top: 0;bottom: 0;left: 0;right: 0;}
  .fullpage .container{display:table; height:inherit;}
  .fullpage .absolute-center{display:table-cell;vertical-align: middle;}
