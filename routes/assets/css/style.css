@@ -122,6 +122,8 @@ body{
 }
 .bio-content{
   text-align:left;
+  font-size: 13px;
+  color: #333;
 }
 .bio-content p{
   font-weight:600;
